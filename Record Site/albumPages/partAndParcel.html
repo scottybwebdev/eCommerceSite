@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <title>Part & Parcel - The Skints</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+		<a class="navbar-brand" href="../index.html">Record Store</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+	  
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+			  <a class="nav-link" href="../index.html">Home</a>
+			</li>
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Artists
+			  </a>
+			  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="../bandPages/arcticMonkeys.html">Arctic Monkeys</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="#">Dr. Dre</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="#">The Notorious B.I.G.</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="#">The Skints</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="#">The View</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="#">Toots & The Maytals</a>
+			  </div>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="../releases.html">Releases</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="../news.html">News</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="../about.html">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="../contact.html">Contact Us</a>
+			</li>
+		  </ul>
+		  <form class="form-inline my-2 my-lg-0">
+			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		  </form>
+		</div>
+      </nav> 
+      <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <img src="../CD/partAndParcel.png">
+            </div>
+            <div class="col-sm">
+                <h3>
+                    Part & Parcel
+                    <small class="text-muted">The Skints</small>
+                </h3>
+                <h4>£9.99</h4>
+                <p class="text-danger font-weight-bold font-italic">DON'T ENTER PAYPAL DETAILS, ONLY THERE FOR TEST PURPOSES</p>
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="BFJC6HL72YJ3G">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Format">Format</td></tr><tr><td><select name="os0">
+                        <option value="CD">CD £9.99 GBP</option>
+                        <option value="Vinyl">Vinyl £14.99 GBP</option>
+                        <option value="Digital">Digital £8.99 GBP</option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="hidden" name="currency_code" value="GBP">
+                    <br>
+                    <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+                </form>                                                         
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Track #</th>
+                            <th scope="col">Track Name</th>
+                            <th scope="col">Artist</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Rise Up</td>
+                            <td>The Skints</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Rat-a-tat</td>
+                            <td>The Skints</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Can't Take No More</td>
+                            <td>The Skints</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Live East Die Young</td>
+                            <td>The Skints</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Ring Ring</td>
+                            <td>The Skints</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td>Lay You Down</td>
+                            <td>The Skints</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">7</th>
+                            <td>SunnySunny</td>
+                            <td>The Skints</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">8</th>
+                            <td>Rubadub (DoneKnow)</td>
+                            <td>The Skints</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">9</th>
+                            <td>Up Against The Wall Riddim</td>
+                            <td>The Skints</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">10</th>
+                            <td>Soundboy</td>
+                            <td>The Skints</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">11</th>
+                            <td>YouBetter</td>
+                            <td>The Skints</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+      </div>
+</body>
+</html>
